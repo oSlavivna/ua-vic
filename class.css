@@ -1,0 +1,468 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+/* @charset "UTF-8"; */
+/* nulling */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+/* header */
+.site-header {
+  width: 100%;
+  position: fixed;
+  top: 2%;
+
+  padding: 0 3%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 5;
+
+  backdrop-filter: blur(5px);
+}
+
+.logo {
+  width: 65px;
+  height: 65px;
+}
+
+nav {
+  display: inherit;
+  font-size: 1.2rem;
+}
+
+.menu-list,
+.menu-li {
+  display: inherit;
+  align-items: center;
+}
+.menu-list {
+  margin: 0;
+}
+.menu-li {
+  margin: 0 1em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-buton {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 1em 1.6em;
+  border-radius: 87px;
+
+  text-decoration: none;
+  background-color: #7ae5fd;
+}
+.hamburger-icon {
+  display: none;
+}
+
+/*  first screen section*/
+
+.first {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1fdff;
+
+  display: flex;
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+
+.first-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin-left: 3%;
+  padding-top: 3%;
+}
+
+h1 {
+  font-size: 6.5rem;
+  font-weight: 800;
+  line-height: 94%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #9ad2de;
+}
+.first-p {
+  font-size: 1.3rem;
+  width: 60%;
+  margin-top: 8%;
+}
+.woman-holding {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.kruvylia {
+  position: absolute;
+  bottom: -10%;
+  /* left: 45%; */
+  right: 0;
+  z-index: 1;
+  width: 60%;
+}
+/* програма */
+.program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 9%;
+}
+h2 {
+  font-size: 3.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+.sub-heading {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.sub2 {
+  padding-top: 1rem;
+  color: #73a6b1;
+  font-size: 1.3rem;
+  width: 72%; /* 52% або 33%*/
+}
+/* Сцена Перемоги */
+.blue-bgr {
+  margin: 4rem 3%;
+  background-color: #f1fdff;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+h3 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 94.9%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.p-h3 {
+  font-size: 1.3rem;
+  line-height: 96.9%;
+}
+ul {
+  list-style: none;
+  margin-top: 3rem;
+}
+.text-blue {
+  color: #3d8c9d;
+  padding-bottom: 3rem;
+}
+/* Сцена "Музика" */
+.img-muzuka {
+  width: auto;
+  height: 100%;
+}
+/* button */
+.see-more {
+  display: block;
+  margin: 0 auto;
+  font-family: inherit;
+  font-size: 1.12rem;
+  text-transform: uppercase;
+  background: #7ae5fd;
+  padding: 1.3rem 2.1rem;
+  border-radius: 87px;
+  /* margin: 3.75rem 35%; */
+}
+/* "Майстер-класи для дітей */
+.master-class {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 50px; */
+  padding-top: 2%;
+  width: 100%;
+}
+/*  */
+.t-short {
+  position: relative;
+  margin: 0 3%;
+  /* background-color: #F1FDFF; */
+  padding: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  /* z-index: 2; */
+}
+
+.fon5 {
+  position: absolute;
+  z-index: 1;
+}
+.Rectangle {
+  position: absolute;
+  z-index: 2;
+
+  background-color: #f2feff;
+  width: 97%;
+  height: 50%;
+  border-radius: 10px;
+}
+.short {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  z-index: 3;
+  padding: 2rem;
+}
+.short p {
+  width: 50%;
+}
+/* festival */
+.festival {
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.how {
+  display: block;
+}
+.sub3 {
+  text-align: center;
+  padding-top: 1rem;
+  color: #73a6b1;
+  font-size: 1.3rem;
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+.money {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+span {
+  font-size: 2.8rem;
+  font-weight: 400;
+  padding: 0 0.5rem;
+}
+
+.second {
+  border-right: 2px solid #9ad2de;
+  border-left: 2px solid #9ad2de;
+}
+/*  footer*/
+footer {
+  padding: 1rem;
+  background-color: #f9fadf;
+  /* background-image: url(./assets/Фон6.png);
+  background-size: no-repeat; */
+}
+.fon6 {
+  position: absolute;
+  z-index: 1;
+  left: 0%;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 4rem 0 0 0;
+  position: relative;
+  z-index: 2;
+}
+/* .contact h2 {
+  z-index: 2;
+} */
+
+.number {
+  font-size: 1.3rem;
+  width: 70%;
+  margin-bottom: 3rem;
+}
+.telega {
+  margin-right: 0.5rem;
+}
+
+.mail {
+  margin: 5rem 3%;
+  background-color: #ffffff;
+  padding: 2rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.mail img {
+  width: 45%;
+}
+form {
+  margin-left: 4rem;
+  /* width: 50% ; */
+}
+.p-mail {
+  font-size: 1.7rem;
+  width: 70%;
+  margin: 1rem 0 2rem 0;
+  padding-left: 1rem;
+}
+input {
+  font-size: 1.3rem;
+  font-family: inherit;
+  background: #f9fadf;
+  border-radius: 61px;
+  width: 70%;
+  height: 3rem;
+  padding: 2rem 3rem;
+  margin-bottom: 2rem;
+}
+input:focus {
+  outline: none;
+}
+.subscribe {
+  width: 70%;
+  font-family: inherit;
+  font-size: 1.12rem;
+  text-transform: uppercase;
+  background: #7ae5fd;
+  padding: 1.3rem 2.1rem;
+  border-radius: 87px;
+}
+/* ------------------------------ */
+/* media запити на моб версію*/
+@media screen and (max-width: 390px) {
+  .logo {
+    display: none;
+  }
+
+  .site-header {
+    justify-content: flex-end;
+  }
+  .menu-list {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: block;
+    width: 60px;
+  }
+
+  .first {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-top: 5rem;
+  }
+
+  .first-p {
+    font-size: 1rem;
+    /* width: 100%; */
+  }
+
+  .first-wrapper {
+    max-width: none;
+  }
+
+  .woman-holding {
+    position: relative;
+    width: 100%;
+    /* height: 50%; */
+  }
+
+  .kruvylia {
+    display: none;
+  }
+  /*  */
+  .program h2 {
+    font-size: 3rem;
+    /* margin-top: 2rem; */
+  }
+  .sub-heading {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .sub2 {
+    font-size: 1rem;
+  }
+  /*  */
+  .blue-bgr {
+    margin-top: 1rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  .p-h3 {
+    font-size: 1.5rem;
+  }
+  .text-blue {
+    padding-bottom: 4%;
+  }
+  /*  */
+  .short {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .short p {
+    font-size: 1rem;
+    width: 80%;
+  }
+  /*  */
+  .money p {
+    width: 90%;
+    text-align: center;
+  }
+  /*  */
+  .mail {
+    flex-wrap: wrap;
+  }
+  .mail img {
+    width: 100%;
+  }
+  form {
+    margin: 0;
+  }
+  .p-mail {
+    padding: 0;
+    width: 80%;
+    font-size: 1.5rem;
+  }
+  form input {
+    width: 100%;
+  }
+  .subscribe {
+    width: 100%;
+  }
+}
