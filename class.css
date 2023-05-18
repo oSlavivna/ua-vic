@@ -434,7 +434,8 @@ input:focus {
     margin-top: 1rem;
   }
   h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 1.2;
   }
   .p-h3 {
     font-size: 1.5rem;
@@ -461,6 +462,12 @@ input:focus {
     width: 90%;
     text-align: center;
   }
+  /*  */
+  .contact h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+
   /*  */
   .mail {
     flex-wrap: wrap;
